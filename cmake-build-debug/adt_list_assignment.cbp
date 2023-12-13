@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="adt_list_assignment"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/list-Kendallchris/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/list-Kendallchris/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list">
+				<Option output="/tmp/list-Kendallchris/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/list-Kendallchris/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 list"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list/fast">
+				<Option output="/tmp/list-Kendallchris/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/list-Kendallchris/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 list/fast"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/list-Kendallchris/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/tmp/list-Kendallchris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/list-Kendallchris/comparable.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/comparable.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/dlinkedlist.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/dlinkedlist.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/integer.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/integer.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/list.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/list.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/object.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/object.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/person.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/person.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/sorted_double_linked_list.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/sorted_double_linked_list.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/test.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/vsarray.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/vsarray.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/tmp/list-Kendallchris/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
